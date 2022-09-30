@@ -9,7 +9,7 @@ body {
     max-width: 300px;
     padding: 1.5rem 2rem;
     margin: 3rem;
-    border: 1px solid black;
+    border: 1px solid rgb(115, 196, 193);
     border border-radius: 0.5rem;
 }
 
