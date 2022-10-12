@@ -26,11 +26,22 @@ color: var(--grey-dark);
 }
 
 .blogs-center {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 2rem;
     width: var(--fluid-width);
     max-width: var(--max-width);
     margin: 0 auto;
-    max-width: 30rem;
+    /* max-width: 30rem; */
 }
+
+.blogs-center2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax);
+    gap: 2rem;
+    width: var(--fluid-width);
+    max-width: var(--max-width);
+    margin: 0 auto;
 .blog {
 background-color: white;
 padding: 1rem;
