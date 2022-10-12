@@ -42,6 +42,7 @@ color: var(--grey-dark);
     width: var(--fluid-width);
     max-width: var(--max-width);
     margin: 0 auto;
+}
 .blog {
 background-color: white;
 padding: 1rem;
