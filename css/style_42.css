@@ -205,16 +205,15 @@ Navbar
     .nav-header h3 {
     padding-top: 0.7rem;        
     }
-.nav-link {
+.nav-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 1.5rem;
 
 }
 
-.show-classdemp{
+.show-classdemo {
   width: 100vw;
-  height: calc(100vh -4rem);
-
+  height: calc(100vh - 4rem);
 }
