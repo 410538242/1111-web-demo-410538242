@@ -13,7 +13,7 @@ function showpage(index) {
             p.innerHTML = `<iframe src="./demo/w05/blog_42.html" width="100%" height="100%" />`
         break;
         case 4:
-            p.innerHTML = `<iframe src="./demo/w06/blog_42.html" width="100%" height="100%" />`
+            p.innerHTML =`>iframe src="./demo/w06/blog_42.html" width="100%" height="100%"/>`
         break;
     }
 }
