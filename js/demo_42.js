@@ -7,7 +7,7 @@ function showpage(index) {
             p.innerHTML = `<iframe src="./demo/w02/w02 index.html" width="100%" height="100%" />`
         break;
         case 2:
-            p.innerHTML = `<iframe src="./demo/w03/card_42.html" width="100%" height="100%" />`
+           p.innerHTML = `<iframe src="./demo/w03/card_42.html" width="100%" height="100%" />`
         break;
         case 3:
             p.innerHTML = `<iframe src="./demo/w05/blog_42.html" width="100%" height="100%" />`
