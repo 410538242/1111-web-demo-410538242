@@ -308,3 +308,53 @@ margin: 0.5rem;
 }
 
 
+/*
+============
+tiles
+============
+*/
+
+.tiles {
+  padding: 4rem 0;
+}
+
+.tiles-center {
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 2rem auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 12.5rem);
+  grid-template-areas: 
+  'a a a b'
+  'a a a c'
+  'd d d d'
+  'e f f f'
+  'e g h i'
+}
+
+.tiles-center img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.tiles img {
+  height: 100%;
+}
+
+.tiles-2 {
+  grid-area: b;
+}
+
+
+.tiles-3 {
+  grid-area: c;
+}
+.tiles-7 {
+  grid-area: d;
+}
+.tiles-8 {
+  grid-area: a;
+}
