@@ -115,6 +115,37 @@ Product
   letter-spacing: var(--letterSpacing);
 }
 
+.tile {
+  padding: 5rem 0;
+}
+
+.tile-center {
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 2rem auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 12.5rem);
+  grid-template-areas: 
+  'a a a b'
+  'a a a c'
+  'd d d d'
+  'e f f f'
+  'e g h i'
+}
+
+.tile-center img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.tile img {
+  height: 100%;
+}
+
+
 .tile-1 {
   grid-area: a1;
 }
