@@ -1,7 +1,6 @@
 {
   "name": "1111-web-demo-410538242",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +18,7 @@
   "homepage": "https://github.com/410538242/1111-web-demo-410538242#readme",
   "dependencies": {
     "sass": "^1.56.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
