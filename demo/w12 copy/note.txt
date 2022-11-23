@@ -1,1 +1,3 @@
+npm i
+npm i -g sass
 sass --watch demo/w12/portfolio/scss:demo/w12/portfolio/css
