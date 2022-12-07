@@ -159,6 +159,28 @@ p {
   margin: 0 auto;
   max-width: 1170px;
 }
+
+.social-icons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 3rem;
+  width: 20rem;
+  place-items: center;
+
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: var(--clr-grey-6);
+  transition: var(--transition);
+
+
+  &:hover {
+    color: var(--clr-primary-5);
+  }
+}
+
+
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;

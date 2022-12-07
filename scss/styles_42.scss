@@ -1,4 +1,4 @@
-@use 'global_xx';
+@use 'global_42';
 
 /*
 =============== 
@@ -139,6 +139,12 @@ Hero
     min-height: calc(100vh - 4rem);
     display: grid;
     place-items: center;
+    }
+
+    &-icons {
+      justify-items: start;
+      margin-top: 75%;
+      
     }
 
     &-img {
