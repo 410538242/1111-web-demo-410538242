@@ -1,4 +1,4 @@
-@use 'global_42';
+@use './global_42';
 
 /*
 =============== 
@@ -202,6 +202,27 @@ Hero
 
 /*
 =============== 
+about 
+===============
+*/
+
+@media screen and (min-width:768px) {
+  .section-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+  @media screen and (min-width:992px) {
+  .about-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+  }
+}
+}
+
+/*
+=============== 
 Services 
 ===============
 */
@@ -251,3 +272,4 @@ Services
   }
 }
 
+}
