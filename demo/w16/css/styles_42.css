@@ -635,7 +635,7 @@ Timeline
 Connect
 ===============
 */
-.connet {
+.connect {
   min-height: 40vh;
   position: relative;
   padding: 10rem 0 5rem 0;
@@ -644,7 +644,7 @@ Connect
   place-items: center;
   clip-path: polygon(50% 0, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
 }
-.connet::after {
+.connect::after {
   content: "";
   position: absolute;
   left: 0;
@@ -655,7 +655,7 @@ Connect
   opacity: 0.7;
   z-index: -1;
 }
-.connet .video-container {
+.connect .video-container {
   position: absolute;
   left: 0;
   top: 0;
@@ -664,16 +664,16 @@ Connect
   object-fit: cover;
   z-index: -2;
 }
-.connet .video-banner {
+.connect .video-banner {
   background-color: var(--clr-primary-10);
   padding: 3rem 5rem 12rem 5rem;
   text-align: center;
   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
 }
-.connet .video-banner .section-title {
+.connect .video-banner .section-title {
   margin-bottom: 2rem;
 }
-.connet .video-banner .video-text {
+.connect .video-banner .video-text {
   max-width: 30rem;
 }
 
