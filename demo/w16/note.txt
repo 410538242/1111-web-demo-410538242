@@ -4,3 +4,4 @@ sass --watch demo/w12/scss:demo/w12/css
 
 git config --global user.email "410538242@github"
 git config --global user.name "Hsin I Lin_in_Github"
+<img src="./images/logo.svg" class="nav-logo" alt="nav logo" />

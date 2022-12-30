@@ -33,6 +33,14 @@ function showpage(index) {
         case 9:
             p.innerHTML =`<iframe src="./projects/midtern/learning_42.html" width="100%" height="100%" >`
         break;
-    
-    }
+        
+        case 11:
+            p.innerHTML =`<iframe src="./demo/w16/index.html" width="100%" height="100%" >`
+        break;
+        case 12:
+            p.innerHTML =`<iframe src="./demo/w16/indexc.html" width="100%" height="100%" >`
+        break;
 }
+}
+
+
