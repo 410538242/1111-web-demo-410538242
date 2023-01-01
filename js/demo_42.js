@@ -28,7 +28,7 @@ function showpage(index) {
             p.innerHTML =`<iframe src="./projects/midtern/works_42.html" width="100%" height="100%" >`
         break;
         case 8:
-            p.innerHTML =`<iframe src="./projects/midtern/resume(me)_42.html" width="100%" height="100%" >`
+            p.innerHTML =`<iframe src="/projects/midtern/resume(me)_42 copy.html" width="100%" height="100%" >`
         break;
         case 9:
             p.innerHTML =`<iframe src="./projects/midtern/learning_42.html" width="100%" height="100%" >`

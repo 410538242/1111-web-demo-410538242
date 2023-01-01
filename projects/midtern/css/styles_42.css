@@ -963,16 +963,19 @@ resume
   border-radius: 12px;
 }
 
-.js-progress {
-  width: 70%;
+.EX-progress {
+  width: 84%;
 }
 
-.html-progress {
-  width: 90%;
+.F-progress {
+  width: 95%;
 }
 
+.E-progress {
+  width: 77%;
+}
 .c-progress {
-  width: 40%;
+33%
 }
 
 @media screen and (max-width: 768px) {
